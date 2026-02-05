@@ -1,0 +1,2 @@
+ALTER TABLE subject_test_questions
+    ADD COLUMN IF NOT EXISTS difficulty VARCHAR(20) NOT NULL DEFAULT 'MEDIUM';

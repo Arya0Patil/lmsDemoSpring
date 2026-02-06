@@ -8,6 +8,7 @@ spring:
     url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/lms}
     username: ${SPRING_DATASOURCE_USERNAME:lms_user}
     password: ${SPRING_DATASOURCE_PASSWORD:lms_pass}
+    driver-class-name: ${SPRING_DATASOURCE_DRIVER_CLASS_NAME:org.postgresql.Driver}
   jpa:
     hibernate:
       ddl-auto: update
